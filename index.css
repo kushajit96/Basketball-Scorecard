@@ -1,4 +1,9 @@
-* {
+body {
     background-color: black;
     color: white;
+}
+#container{
+    background-color: rgb(47, 49, 42);
+    display: inline-block;
+    align-content: center;
 }
