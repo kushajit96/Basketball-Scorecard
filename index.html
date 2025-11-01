@@ -7,27 +7,38 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Basketball Scorecard</h1>
+    
 
-    <div id="container">
+    <div id="main-conatainer">
+            <h1>Basketball Scorecard</h1>
+
+    <div class="container-oftwo">
+        <div class="container" >
         <h1>HOME</h1>
-        <span id="display"></span>
-    </div>
+        <span class="displayhome">00</span>
         <div id="button">
-            <button class="btn">+1</button>
-            <button class="btn">+2</button>
-            <button class="btn">+3</button>
-        </div>
+            <button class="btn+1" onclick="increamentonehome()">+1</button>
+            <button class="btn+2" onclick="increamenttwohome()">+2</button>
+            <button class="btn+3" onclick="increamentthreehome()">+3</button>
+    </div>
+    </div>
+    
 
-     <div id="container">
+     <div class="container">
         <h1>GUEST</h1>
-        <span id="display"></span>
-    </div>
+        <span class="displayguest">00</span>
         <div id="button">
-            <button class="btn">+1</button>
-            <button class="btn">+2</button>
-            <button class="btn">+3</button>
+            <button class="btn+1" onclick="increamentoneguest()">+1</button>
+            <button class="btn+2" onclick="increamenttwoguest()">+2</button>
+            <button class="btn+3" onclick="increamentthreeguest()">+3</button>
+    </div>
+    </div>
         </div>
+    </div>
+
+        
+
+    </div>
 
 
 

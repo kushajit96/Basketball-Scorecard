@@ -1,9 +1,39 @@
 body {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: xx-large;
 }
-#container{
+.container-oftwo{
+    display: flex;
+    /* border: 1rem solid; */
+}
+.container{
     background-color: rgb(47, 49, 42);
-    display: inline-block;
+    display: flex;
     align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    border: 1rem solid rgb(47, 49, 42);
+}
+.display{
+    background-color: darkslategray;
+  justify-content: center;
+  display: flex;
+  margin-top: auto;
+  padding: 15px 0px;
+}
+.container-oftwo h1{
+ margin: 1px;
+}
+button{
+    border: none;
+    margin-top: 5px;
+    background-color: darkslateblue;
+    color: white;  
+}
+button:hover{
+   background-color: red;
 }
